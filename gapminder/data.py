@@ -1,4 +1,7 @@
+import pkg_resources
+from io import StringIO
 import pandas as pd
 
 def _load_gapminder():
-    return pd.read_csv('gapminder.csv')
+    content = pkg_resources.resource_string('gapminder', 'gapminder.csv').decode()
+    return pd.read_csv(StringIO(content))
