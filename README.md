@@ -1,6 +1,9 @@
 gapminder
 ===============================================================================
 
+[![Build Status](https://travis-ci.org/jstaf/gapminder.svg?branch=master)](https://travis-ci.org/jstaf/gapminder)
+[![PyPI version](https://badge.fury.io/py/gapminder.svg)](https://badge.fury.io/py/gapminder)
+
 This is a Python version of Jennifer Bryan's excellent 
 [gapminder](https://github.com/jennybc/gapminder/) teaching package for R.
 
